@@ -10,7 +10,7 @@
 .box {
     padding: 36px;
     width: 50%;
-    height: 45%;
+    height: 50%;
     background-color: #fff;
     border-radius: 16px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -20,6 +20,13 @@
 
     h2 {
         text-shadow: #36FF85 2px 3px;
+    }
+
+    p {
+        color: #222;
+        text-shadow: #36FF85 2px 2px;
+        font-weight: 700;
+        
     }
 }
 
@@ -36,6 +43,7 @@
     div {
         display: flex;
         gap: 12px;
+        align-items: center;
 
         label {
             text-align: right;
